@@ -1,0 +1,132 @@
+*{
+	font-family: Verdana;
+	color: #313131;
+}
+/*fondo principal*/
+.bg-header{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+	),
+	url("../img/background/hero.jpg");
+	padding: 10%;
+}
+/*fondo negro principal*/
+.nav-gris{
+    background: rgba(8, 8, 8, .8);
+}
+#activo{
+	position: fixed;
+	bottom: 5%;
+	right: 2%;
+	display: none;
+	background-color: #D3D3D3;  
+	border-radius: 10px;
+	padding: .5%;
+}
+#activo a:hover, #titulo{
+	text-decoration: none;
+}
+/*titulo*/
+#titulo{
+	font-size: 2em;
+}
+/*estilos del menu*/
+ul.menu li a, .txt-blanco, input, form{
+	color: #fff !important;
+}
+li a{
+	font-weight: bold;
+}
+.menu a:hover{
+	color: #0CC0BF !important;
+}
+/*encabezados*/
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.5em;
+}
+/*iconos azules*/
+.icono{
+	font-size: 4em;
+	color: #0CC0BF;
+}
+/*estilo seccion call action*/
+.bg-call{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.4), 
+		rgba(0, 0, 0, 0.4)
+	),
+	url("../img/background/city.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*padding: 5%;*/	
+}
+/*azul*/
+.bg-azul, .btn-azul{
+	background-color: #0CC0BF;
+}
+/*estilo de botones*/
+.bg-blanco, .btn-blanco{
+	background-color: #fff;
+}
+.btn-trans{
+	background: rgba(255,255,255,.3);
+}
+.btn{
+	font-weight: 900;
+}
+/*parrafos de call action*/
+.text-grande{
+	font-size: 20px;
+}
+h4{
+	font-weight: bold;
+	margin: 0;
+}
+/*gris*/
+.gray-fuerte, .btn-gris{
+	background-color: #4A4949;
+}
+/*fondo de contacto*/
+.bg-contacto{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.6), 
+		rgba(0, 0, 0, 0.6)
+	),
+	url("../img/background/contactus.jpg");
+	background-repeat: no-repeat;	
+}
+/*formulario*/
+form{
+	margin: 5%;
+}
+input, textarea{
+	background: rgba(190, 190, 190, 0.3);
+	padding: 3% 5% 3% 2%;
+	margin: 3%;
+	width: 90%;
+	display: block;
+	border: none;
+}
+input.btn{
+	width: 40%;
+}
+/*tabla de precios*/
+thead>tr>th{
+	border-bottom: 0 !important;
+}
+th{
+	font-size: 1.5em;
+}
+td>strong{
+	font-size: 2.5em;
+}
+.enlace{
+	margin: 3%;
+}
+.caption{
+	margin-top: 2%;
+}

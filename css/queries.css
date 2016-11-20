@@ -1,0 +1,42 @@
+@media only screen and (min-width : 1200px) {
+	/*foto*/
+	#foto{
+		max-width: 10%;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	/*foto*/
+	#foto{
+		max-width: 15%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.img-thumbnail{
+		margin: 3%;
+	}
+	#foto{
+		max-width: 20%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*fondo de contacto*/
+	.bg-contacto{
+		height: auto;
+	}
+	/*foto*/
+	#foto{
+		max-width: 25%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	/*foto*/
+	#foto{
+		max-width: 30%;
+	}
+}
