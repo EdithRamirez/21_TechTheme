@@ -13,7 +13,7 @@
 }
 /*fondo negro principal*/
 .nav-gris{
-    background: rgba(8, 8, 8, .8);
+	background: rgba(8, 8, 8, .8);
 }
 #activo{
 	position: fixed;
